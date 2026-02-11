@@ -25,7 +25,7 @@ search                   : false
 author:
   name             : "Deyu Zhou"
   avatar           : "/assets/images/photo.jpg"
-  bio              : "Ph.D. Student at HKUST-GZ"
+  bio              : "Founder of TorchFun.AI"
   location         : "Guangzhou, China"
   links:
     - label: "Email"
