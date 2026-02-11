@@ -1,0 +1,62 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* 调整正文区域宽度 */
+
+.toc {
+    position: fixed; /* 固定位置 */
+    top: 100px; /* 距顶部的距离，可根据需求调整 */
+    left: 75px; /* 靠左侧显示 */
+    width: 250px; /* TOC 的宽度 */
+    max-height: 80vh; /* 限制最大高度 */
+    overflow-y: auto; /* 使长内容可滚动 */
+    background-color: #f8f9fa; /* 背景颜色，可选 */
+    padding: 10px; /* 内边距 */
+    border-radius: 8px; /* 边角圆润 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+/* 调整正文内容避免被 TOC 遮挡 */
+.page__content {
+    margin-top: 0; /* 移除顶部空间 */
+    margin-left: auto;
+    margin-right: 50px;
+    max-width: 900px; /* 居中显示正文内容 */
+}
+
+@media (max-width: 1300px) {
+    .toc {
+        display: none; /* 隐藏 TOC */
+    }
+
+    .page__content {
+        margin-top: 20px; /* 恢复正常的正文边距 */
+    }
+}
+
+
+/* 调整正文文字大小 */
+.page__content {
+    font-size: 18px; /* 调整字体大小 */
+    line-height: 1.8; /* 调整行间距 */
+}
+
+.page__content h2 {
+    font-size: 1.8em; /* 调整 h2 标题大小 */
+}
+
+.page__content h3 {
+    font-size: 1.5em; /* 调整 h3 标题大小 */
+}
+
+/* 网站标题大小 */
+.site-title {
+    font-size: 1.5em;
+}
