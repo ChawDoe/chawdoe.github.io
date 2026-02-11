@@ -3,4 +3,48 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="icon" type="image/png" href="/assets/images/thu.png">
 
+<style>
+/* Publication cards — subtle hover lift */
+.page__content .row {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.page__content .row:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+/* Links in bio — smooth underline on hover */
+.page__content a {
+  transition: color 0.15s ease;
+}
+.page__content a:hover {
+  color: #1d4ed8 !important;
+}
+
+/* Publication link badges */
+.page__content .row a[href] {
+  border-radius: 3px;
+  padding: 1px 2px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.page__content .row a[href]:hover {
+  background: #eff6ff;
+}
+
+/* Section headings — subtle left accent */
+.page__content h2 {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e5e7eb;
+  margin-top: 2em;
+}
+
+/* Experience cards hover */
+.page__content div[style*="flex: 1"] img {
+  transition: transform 0.2s ease;
+}
+.page__content div[style*="flex: 1"]:hover img {
+  transform: scale(1.08);
+}
+</style>
+
 <!-- end custom head snippets -->
