@@ -9,31 +9,88 @@ permalink: /
 
 I am a Ph.D. candidate at [HKUST-GZ](https://www.hkust-gz.edu.cn/), supervised by [Prof. Harry Shum](https://ias.hkust.edu.hk/people/ias-members/alumni/prof-harry-heung-yeung-shum) and [Prof. Lionel Ni](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni), working on **autoregressive visual generation** and **interactive world models**.
 
-My journey started with NLP at **Tencent AI Lab**, then shifted to visual generation at **Xiaobing**, where I built one-shot talking head systems (ICCV 2023). At **StepFun**, I helped scale autoregressive generation to production — from masked autoregressive video generation ([MAGI](https://arxiv.org/abs/2501.12389), CVPR 2025), to the 30B-parameter [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V) (3k+ GitHub stars), and ultimately [NextStep-1](https://github.com/stepfun-ai/NextStep-1) — the first autoregressive image model with continuous tokens that matches diffusion quality at scale (ICLR 2026 Oral, 600+ GitHub stars).
+My journey started with NLP at **Tencent AI Lab**, then shifted to visual generation at **Xiaobing**, where I built one-shot talking head systems (ICCV 2023). At **StepFun**, I helped scale autoregressive generation to production — from masked autoregressive video generation ([MAGI](https://arxiv.org/abs/2501.12389), CVPR 2025), to the 30B-parameter [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V) <span style="white-space: nowrap;">(<i class="fas fa-star" style="color: #f0a500; font-size: 13px;"></i> 3k+)</span>, and ultimately [NextStep-1](https://github.com/stepfun-ai/NextStep-1) — the first autoregressive image model with continuous tokens that matches diffusion quality at scale (ICLR 2026 Oral <span style="white-space: nowrap;"><i class="fas fa-star" style="color: #f0a500; font-size: 13px;"></i> 600+</span>).
 
 I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesitate to get in touch!
 
 ## Publications
 
 <!-- NextStep-1 — highlighted -->
-<div class="row" style="border-left: 3px solid #3b82f6; padding: 12px 12px 12px 16px; margin-bottom: 16px; background: #f8fafc; border-radius: 0 6px 6px 0;">
+<div class="row" style="border-left: 3px solid #2563eb; padding: 12px 12px 12px 16px; margin-bottom: 16px; background: #f8fafc; border-radius: 0 6px 6px 0;">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
         <video autoplay loop muted playsinline style="width: 100%; border-radius: 4px;">
             <source src="/assets/images/publications/NextStep-1.mp4" type="video/mp4">
         </video>
     </div>
     <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="font-size: 16px; margin: 0 0 4px 0;"><b>NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale</b></p>
-        <p style="font-size: 14px; margin: 0 0 4px 0;">International Conference on Learning Representations (ICLR) 2026 <b style="color: #E64545;">Oral</b></p>
-        <p style="font-size: 16px; margin: 0;">
-             <a href="https://arxiv.org/abs/2508.10711" style="text-decoration: none; color: blue;">[Paper]</a>
-             <a href="https://github.com/stepfun-ai/NextStep-1" style="text-decoration: none; color: blue;">[Code]</a>
-             <a href="https://stepfun.ai/research/en/nextstep1" style="text-decoration: none; color: blue;">[Project]</a>
+        <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale</p>
+        <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">International Conference on Learning Representations (ICLR) 2026 <span style="color: #dc2626; font-weight: 600;">Oral</span></p>
+        <p style="font-size: 13px; margin: 0;">
+             <a href="https://arxiv.org/abs/2508.10711" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+             <a href="https://github.com/stepfun-ai/NextStep-1" style="text-decoration: none; color: #2563eb;">[Code]</a>
+             <a href="https://stepfun.ai/research/en/nextstep1" style="text-decoration: none; color: #2563eb;">[Project]</a>
         </p>
     </div>
 </div>
 
-<!-- Step-Video-T2V -->
+<!-- MAGI — highlighted -->
+<div class="row" style="border-left: 3px solid #2563eb; padding: 12px 12px 12px 16px; margin-bottom: 16px; background: #f8fafc; border-radius: 0 6px 6px 0;">
+    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
+        <a href="/assets/images/publications/magi.png"><img src="/assets/images/publications/magi.png" style="border-radius: 4px;"></a>
+    </div>
+    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
+        <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">Taming Teacher Forcing for Masked Autoregressive Video Generation</p>
+        <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025</p>
+        <p style="font-size: 13px; margin: 0;">
+             <a href="https://arxiv.org/abs/2501.12389" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+             <a href="https://magivideogen.github.io/" style="text-decoration: none; color: #2563eb;">[Project]</a>
+        </p>
+    </div>
+</div>
+
+<!-- SpeakerVid-5M — ICLR 2026 -->
+<div class="row" style="margin-bottom: 16px;">
+    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
+        <a href="/assets/images/publications/SpeakerVid-5M.png"><img src="/assets/images/publications/SpeakerVid-5M.png" style="border-radius: 4px;"></a>
+    </div>
+    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
+        <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual Dyadic Interactive Human Generation</p>
+        <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">International Conference on Learning Representations (ICLR) 2026</p>
+        <p style="font-size: 13px; margin: 0;">
+             <a href="https://openreview.net/forum?id=Ndnwg9oOQO" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+        </p>
+    </div>
+</div>
+
+<!-- Training-Free Color Editing — ICLR 2026 -->
+<div class="row" style="margin-bottom: 16px;">
+    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
+        <a href="/assets/images/publications/ColorCtrl.png"><img src="/assets/images/publications/ColorCtrl.png" style="border-radius: 4px;"></a>
+    </div>
+    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
+        <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">Training-Free Text-Guided Color Editing with Multi-Modal Diffusion Transformer</p>
+        <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">International Conference on Learning Representations (ICLR) 2026</p>
+        <p style="font-size: 13px; margin: 0;">
+             <a href="https://openreview.net/forum?id=U004uqALWl" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+        </p>
+    </div>
+</div>
+
+<!-- The Pensieve Paradigm — ICLR 2026 -->
+<div class="row" style="margin-bottom: 16px;">
+    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
+        <a href="/assets/images/publications/PensiveLM.png"><img src="/assets/images/publications/PensiveLM.png" style="border-radius: 4px;"></a>
+    </div>
+    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
+        <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">The Pensieve Paradigm: Stateful Language Models with Learned Memory Management</p>
+        <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">International Conference on Learning Representations (ICLR) 2026</p>
+        <p style="font-size: 13px; margin: 0;">
+             <a href="https://openreview.net/forum?id=8aFYx2mDyE" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+        </p>
+    </div>
+</div>
+
+<!-- Step-Video-T2V — 2025 -->
 <div class="row" style="margin-bottom: 16px;">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
         <video autoplay loop muted playsinline style="width: 100%; border-radius: 4px;">
@@ -41,83 +98,26 @@ I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesi
         </video>
     </div>
     <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="font-size: 16px; margin: 0 0 4px 0;"><b>Step-Video-T2V Technical Report</b></p>
-        <p style="font-size: 14px; margin: 0 0 4px 0;">Technical Report</p>
-        <p style="font-size: 16px; margin: 0;">
-             <a href="https://arxiv.org/abs/2502.10248" style="text-decoration: none; color: blue;">[Paper]</a>
-             <a href="https://github.com/stepfun-ai/Step-Video-T2V" style="text-decoration: none; color: blue;">[Code]</a>
+        <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">Step-Video-T2V Technical Report</p>
+        <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">Technical Report, 2025</p>
+        <p style="font-size: 13px; margin: 0;">
+             <a href="https://arxiv.org/abs/2502.10248" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+             <a href="https://github.com/stepfun-ai/Step-Video-T2V" style="text-decoration: none; color: #2563eb;">[Code]</a>
         </p>
     </div>
 </div>
 
-<!-- MAGI — highlighted -->
-<div class="row" style="border-left: 3px solid #3b82f6; padding: 12px 12px 12px 16px; margin-bottom: 16px; background: #f8fafc; border-radius: 0 6px 6px 0;">
-    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/magi.png"><img src="/assets/images/publications/magi.png" style="border-radius: 4px;"></a>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="font-size: 16px; margin: 0 0 4px 0;"><b>Taming Teacher Forcing for Masked Autoregressive Video Generation</b></p>
-        <p style="font-size: 14px; margin: 0 0 4px 0;">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025</p>
-        <p style="font-size: 16px; margin: 0;">
-             <a href="https://arxiv.org/abs/2501.12389" style="text-decoration: none; color: blue;">[Paper]</a>
-             <a href="https://magivideogen.github.io/" style="text-decoration: none; color: blue;">[Project]</a>
-        </p>
-    </div>
-</div>
-
-<!-- TH-PAD -->
+<!-- TH-PAD — ICCV 2023 -->
 <div class="row" style="margin-bottom: 16px;">
     <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
         <a href="/assets/images/publications/thpad.png"><img src="/assets/images/publications/thpad.png" style="border-radius: 4px;"></a>
     </div>
     <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="font-size: 16px; margin: 0 0 4px 0;"><b>TH-PAD: Talking Head Generation with Probabilistic Audio-to-Visual Diffusion Priors</b></p>
-        <p style="font-size: 14px; margin: 0 0 4px 0;">IEEE/CVF International Conference on Computer Vision (ICCV) 2023</p>
-        <p style="font-size: 16px; margin: 0;">
-             <a href="https://arxiv.org/abs/2212.04248" style="text-decoration: none; color: blue;">[Paper]</a>
-             <a href="https://zxyin.github.io/TH-PAD/" style="text-decoration: none; color: blue;">[Project]</a>
-        </p>
-    </div>
-</div>
-
-<!-- SpeakerVid-5M -->
-<div class="row" style="margin-bottom: 16px;">
-    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/SpeakerVid-5M.png"><img src="/assets/images/publications/SpeakerVid-5M.png" style="border-radius: 4px;"></a>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="font-size: 16px; margin: 0 0 4px 0;"><b>SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual Dyadic Interactive Human Generation</b></p>
-        <p style="font-size: 14px; margin: 0 0 4px 0;">International Conference on Learning Representations (ICLR) 2026</p>
-        <p style="font-size: 16px; margin: 0;">
-             <a href="https://openreview.net/forum?id=Ndnwg9oOQO" style="text-decoration: none; color: blue;">[Paper]</a>
-        </p>
-    </div>
-</div>
-
-<!-- Training-Free Color Editing -->
-<div class="row" style="margin-bottom: 16px;">
-    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/ColorCtrl.png"><img src="/assets/images/publications/ColorCtrl.png" style="border-radius: 4px;"></a>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="font-size: 16px; margin: 0 0 4px 0;"><b>Training-Free Text-Guided Color Editing with Multi-Modal Diffusion Transformer</b></p>
-        <p style="font-size: 14px; margin: 0 0 4px 0;">International Conference on Learning Representations (ICLR) 2026</p>
-        <p style="font-size: 16px; margin: 0;">
-             <a href="https://openreview.net/forum?id=U004uqALWl" style="text-decoration: none; color: blue;">[Paper]</a>
-        </p>
-    </div>
-</div>
-
-<!-- The Pensieve Paradigm -->
-<div class="row" style="margin-bottom: 16px;">
-    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
-        <a href="/assets/images/publications/PensiveLM.png"><img src="/assets/images/publications/PensiveLM.png" style="border-radius: 4px;"></a>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="font-size: 16px; margin: 0 0 4px 0;"><b>The Pensieve Paradigm: Stateful Language Models with Learned Memory Management</b></p>
-        <p style="font-size: 14px; margin: 0 0 4px 0;">International Conference on Learning Representations (ICLR) 2026</p>
-        <p style="font-size: 16px; margin: 0;">
-             <a href="https://openreview.net/forum?id=8aFYx2mDyE" style="text-decoration: none; color: blue;">[Paper]</a>
+        <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">TH-PAD: Talking Head Generation with Probabilistic Audio-to-Visual Diffusion Priors</p>
+        <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">IEEE/CVF International Conference on Computer Vision (ICCV) 2023</p>
+        <p style="font-size: 13px; margin: 0;">
+             <a href="https://arxiv.org/abs/2212.04248" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+             <a href="https://zxyin.github.io/TH-PAD/" style="text-decoration: none; color: #2563eb;">[Project]</a>
         </p>
     </div>
 </div>
