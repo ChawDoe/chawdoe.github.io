@@ -45,6 +45,39 @@
 .page__content div[style*="flex: 1"]:hover img {
   transform: scale(1.08);
 }
+
+/* Publication thumbnails — rounded shadow */
+.page__content .row .column img,
+.page__content .row .column video {
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  /* Publication cards stack vertically */
+  .page__content .row .column {
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .page__content .row .column:first-child {
+    margin-bottom: 10px;
+    max-width: 200px;
+  }
+
+  /* Experience cards — 1 per row on small screens */
+  .page__content div[style*="display: flex"] {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .page__content div[style*="display: flex"] > div {
+    min-width: unset !important;
+    width: 100% !important;
+    max-width: 280px;
+    margin-bottom: 16px;
+  }
+}
 </style>
 
 <!-- end custom head snippets -->
