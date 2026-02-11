@@ -126,10 +126,10 @@ I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesi
 
 <div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 1; min-width: 180px; text-align: center;">
-        <img src="/assets/images/StepFun.png" alt="StepFun" style="width: 56px; height: 56px; object-fit: contain; margin-bottom: 6px;">
-        <p style="font-size: 15px; margin: 0; font-weight: bold;">StepFun</p>
+        <img src="/assets/images/Tencent.png" alt="Tencent AI Lab" style="width: 56px; height: 56px; object-fit: contain; margin-bottom: 6px;">
+        <p style="font-size: 15px; margin: 0; font-weight: bold;">Tencent AI Lab</p>
         <p style="font-size: 13px; margin: 2px 0; color: #555;">Research Intern</p>
-        <p style="font-size: 12px; margin: 0; color: #999;">Feb 2024 – Aug 2025</p>
+        <p style="font-size: 12px; margin: 0; color: #999;">Nov 2019 – Mar 2021</p>
     </div>
     <div style="flex: 1; min-width: 180px; text-align: center;">
         <img src="/assets/images/XiaoIce.png" alt="Xiaobing" style="width: 56px; height: 56px; object-fit: contain; margin-bottom: 6px;">
@@ -138,10 +138,10 @@ I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesi
         <p style="font-size: 12px; margin: 0; color: #999;">Jan 2022 – May 2023</p>
     </div>
     <div style="flex: 1; min-width: 180px; text-align: center;">
-        <img src="/assets/images/Tencent.png" alt="Tencent AI Lab" style="width: 56px; height: 56px; object-fit: contain; margin-bottom: 6px;">
-        <p style="font-size: 15px; margin: 0; font-weight: bold;">Tencent AI Lab</p>
+        <img src="/assets/images/StepFun.png" alt="StepFun" style="width: 56px; height: 56px; object-fit: contain; margin-bottom: 6px;">
+        <p style="font-size: 15px; margin: 0; font-weight: bold;">StepFun</p>
         <p style="font-size: 13px; margin: 2px 0; color: #555;">Research Intern</p>
-        <p style="font-size: 12px; margin: 0; color: #999;">Nov 2019 – Mar 2021</p>
+        <p style="font-size: 12px; margin: 0; color: #999;">Feb 2024 – Aug 2025</p>
     </div>
 </div>
 
@@ -149,17 +149,17 @@ I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesi
 
 <div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 1; min-width: 240px; display: flex; align-items: center; gap: 12px;">
-        <img src="/assets/images/hkust-gz.png" alt="HKUST-GZ" style="width: 48px; height: 48px; object-fit: contain;">
-        <div>
-            <p style="font-size: 15px; margin: 0; font-weight: bold;">HKUST (Guangzhou)</p>
-            <p style="font-size: 13px; margin: 2px 0; color: #555;">Ph.D. in Artificial Intelligence, 2022 – Present</p>
-        </div>
-    </div>
-    <div style="flex: 1; min-width: 240px; display: flex; align-items: center; gap: 12px;">
         <img src="/assets/images/scut.jpeg" alt="SCUT" style="width: 48px; height: 48px; object-fit: contain;">
         <div>
             <p style="font-size: 15px; margin: 0; font-weight: bold;">South China University of Technology</p>
             <p style="font-size: 13px; margin: 2px 0; color: #555;">B.Eng. in Computer Science, 2016 – 2021</p>
+        </div>
+    </div>
+    <div style="flex: 1; min-width: 240px; display: flex; align-items: center; gap: 12px;">
+        <img src="/assets/images/hkust-gz.png" alt="HKUST-GZ" style="width: 48px; height: 48px; object-fit: contain;">
+        <div>
+            <p style="font-size: 15px; margin: 0; font-weight: bold;">HKUST (Guangzhou)</p>
+            <p style="font-size: 13px; margin: 2px 0; color: #555;">Ph.D. in Artificial Intelligence, 2022 – Present</p>
         </div>
     </div>
 </div>
