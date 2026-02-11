@@ -57,7 +57,7 @@ I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesi
         <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual Dyadic Interactive Human Generation</p>
         <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">International Conference on Learning Representations (ICLR) 2026</p>
         <p style="font-size: 13px; margin: 0;">
-             <a href="https://openreview.net/forum?id=Ndnwg9oOQO" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+             <a href="https://openreview.net/forum?id=U004uqALWl" style="text-decoration: none; color: #2563eb;">[Paper]</a>
         </p>
     </div>
 </div>
@@ -71,7 +71,7 @@ I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesi
         <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">Training-Free Text-Guided Color Editing with Multi-Modal Diffusion Transformer</p>
         <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">International Conference on Learning Representations (ICLR) 2026</p>
         <p style="font-size: 13px; margin: 0;">
-             <a href="https://openreview.net/forum?id=U004uqALWl" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+             <a href="https://arxiv.org/abs/2508.09131" style="text-decoration: none; color: #2563eb;">[Paper]</a>
         </p>
     </div>
 </div>
@@ -85,7 +85,7 @@ I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesi
         <p style="font-size: 15px; margin: 0 0 4px 0; font-weight: 600;">The Pensieve Paradigm: Stateful Language Models with Learned Memory Management</p>
         <p style="font-size: 13px; margin: 0 0 6px 0; color: #555;">International Conference on Learning Representations (ICLR) 2026</p>
         <p style="font-size: 13px; margin: 0;">
-             <a href="https://openreview.net/forum?id=8aFYx2mDyE" style="text-decoration: none; color: #2563eb;">[Paper]</a>
+             <a href="https://openreview.net/forum?id=GymjF88oGQ" style="text-decoration: none; color: #2563eb;">[Paper]</a>
         </p>
     </div>
 </div>
