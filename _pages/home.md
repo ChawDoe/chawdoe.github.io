@@ -7,104 +7,11 @@ permalink: /
 
 ## About Me
 
-My research centers on **autoregressive visual generation** and **interactive world models**, with a focus on scaling next-token prediction to continuous visual domains. I have contributed to several open-source foundation models for text-to-image and text-to-video generation, driven by the lifelong goal of using AI for social good.
+I am a Ph.D. candidate at [HKUST-GZ](https://www.hkust-gz.edu.cn/), supervised by [Prof. Harry Shum](https://ias.hkust.edu.hk/people/ias-members/alumni/prof-harry-heung-yeung-shum) and [Prof. Lionel Ni](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni), working on **autoregressive visual generation** and **interactive world models**.
+
+My journey started with NLP at **Tencent AI Lab**, then shifted to visual generation at **Xiaobing**, where I built one-shot talking head systems (ICCV 2023). At **StepFun**, I helped scale autoregressive generation to production — from masked autoregressive video generation ([MAGI](https://arxiv.org/abs/2501.12389), CVPR 2025), to the 30B-parameter [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V) (3k+ GitHub stars), and ultimately [NextStep-1](https://github.com/stepfun-ai/NextStep-1) — the first autoregressive image model with continuous tokens that matches diffusion quality at scale (ICLR 2026 Oral, 600+ GitHub stars).
 
 I'm always excited to discuss new ideas, especially the *crazy* ones. Don't hesitate to get in touch!
-
-I am a Ph.D. candidate at [HKUST-GZ](https://www.hkust-gz.edu.cn/), supervised by [Prof. Harry Shum](https://ias.hkust.edu.hk/people/ias-members/alumni/prof-harry-heung-yeung-shum) and [Prof. Lionel Ni](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni).
-
-## Education
-
-<div class="row">
-    <div class="column" style="display: inline-block; vertical-align: middle; width: 25%;">
-        <div style="text-align: center;">
-            <img src="/assets/images/hkust-gz.png" alt="HKUST-GZ" style="width: 60%;">
-        </div>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>Hong Kong University of Science and Technology (Guangzhou)</b></p>
-        <div style="height: 2px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; margin-bottom: 10px;">Ph.D. in Artificial Intelligence</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0;">Guangzhou, China, Sep 2022 - Present</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; color: gray;">Supervised by Prof. Harry Shum and Prof. Lionel M. Ni</p>
-    </div>
-</div>
-
-<div style="height: 20px;"></div>
-
-<div class="row">
-    <div class="column" style="display: inline-block; vertical-align: middle; width: 25%;">
-        <div style="text-align: center;">
-            <img src="/assets/images/scut.jpeg" alt="SCUT" style="width: 60%;">
-        </div>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>South China University of Technology</b></p>
-        <div style="height: 2px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; margin-bottom: 10px;">Bachelor of Computer Science and Engineering</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0;">Guangzhou, China, Sep 2016 - Jul 2021</p>
-    </div>
-</div>
-
-## Experience
-
-<div class="row">
-    <div class="column" style="display: inline-block; vertical-align: middle; width: 25%;">
-        <div style="text-align: center;">
-            <img src="/assets/images/StepFun.png" alt="StepFun" style="width: 60%;">
-        </div>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>StepFun</b></p>
-        <div style="height: 2px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; margin-bottom: 10px;">Research Intern</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0;">Feb 2024 - Aug 2025</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; color: gray;">MAGI (CVPR 2025), Step-Video-T2V (30B text-to-video), NextStep-1 (ICLR 2026 Oral)</p>
-    </div>
-</div>
-
-<div style="height: 20px;"></div>
-
-<div class="row">
-    <div class="column" style="display: inline-block; vertical-align: middle; width: 25%;">
-        <div style="text-align: center;">
-            <img src="/assets/images/XiaoIce.png" alt="Xiaobing" style="width: 60%;">
-        </div>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>Xiaobing</b></p>
-        <div style="height: 2px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; margin-bottom: 10px;">Research Intern</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0;">Jan 2022 - May 2023</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; color: gray;">One-shot talking head generation (ICCV 2023)</p>
-    </div>
-</div>
-
-<div style="height: 20px;"></div>
-
-<div class="row">
-    <div class="column" style="display: inline-block; vertical-align: middle; width: 25%;">
-        <div style="text-align: center;">
-            <img src="/assets/images/Tencent.png" alt="Tencent AI Lab" style="width: 60%;">
-        </div>
-    </div>
-    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
-        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>Tencent AI Lab</b></p>
-        <div style="height: 2px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; margin-bottom: 10px;">Research Intern</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0;">Nov 2019 - Mar 2021</p>
-        <div style="height: 0px;"></div>
-        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; color: gray;">Emotion classification (COLING 2020)</p>
-    </div>
-</div>
 
 ## Publications
 
@@ -212,6 +119,48 @@ I am a Ph.D. candidate at [HKUST-GZ](https://www.hkust-gz.edu.cn/), supervised b
         <p style="font-size: 16px; margin: 0;">
              <a href="https://openreview.net/forum?id=8aFYx2mDyE" style="text-decoration: none; color: blue;">[Paper]</a>
         </p>
+    </div>
+</div>
+
+## Experience
+
+<div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-start;">
+    <div style="flex: 1; min-width: 180px; text-align: center;">
+        <img src="/assets/images/StepFun.png" alt="StepFun" style="width: 56px; height: 56px; object-fit: contain; margin-bottom: 6px;">
+        <p style="font-size: 15px; margin: 0; font-weight: bold;">StepFun</p>
+        <p style="font-size: 13px; margin: 2px 0; color: #555;">Research Intern</p>
+        <p style="font-size: 12px; margin: 0; color: #999;">Feb 2024 – Aug 2025</p>
+    </div>
+    <div style="flex: 1; min-width: 180px; text-align: center;">
+        <img src="/assets/images/XiaoIce.png" alt="Xiaobing" style="width: 56px; height: 56px; object-fit: contain; margin-bottom: 6px;">
+        <p style="font-size: 15px; margin: 0; font-weight: bold;">Xiaobing</p>
+        <p style="font-size: 13px; margin: 2px 0; color: #555;">Research Intern</p>
+        <p style="font-size: 12px; margin: 0; color: #999;">Jan 2022 – May 2023</p>
+    </div>
+    <div style="flex: 1; min-width: 180px; text-align: center;">
+        <img src="/assets/images/Tencent.png" alt="Tencent AI Lab" style="width: 56px; height: 56px; object-fit: contain; margin-bottom: 6px;">
+        <p style="font-size: 15px; margin: 0; font-weight: bold;">Tencent AI Lab</p>
+        <p style="font-size: 13px; margin: 2px 0; color: #555;">Research Intern</p>
+        <p style="font-size: 12px; margin: 0; color: #999;">Nov 2019 – Mar 2021</p>
+    </div>
+</div>
+
+## Education
+
+<div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-start;">
+    <div style="flex: 1; min-width: 240px; display: flex; align-items: center; gap: 12px;">
+        <img src="/assets/images/hkust-gz.png" alt="HKUST-GZ" style="width: 48px; height: 48px; object-fit: contain;">
+        <div>
+            <p style="font-size: 15px; margin: 0; font-weight: bold;">HKUST (Guangzhou)</p>
+            <p style="font-size: 13px; margin: 2px 0; color: #555;">Ph.D. in Artificial Intelligence, 2022 – Present</p>
+        </div>
+    </div>
+    <div style="flex: 1; min-width: 240px; display: flex; align-items: center; gap: 12px;">
+        <img src="/assets/images/scut.jpeg" alt="SCUT" style="width: 48px; height: 48px; object-fit: contain;">
+        <div>
+            <p style="font-size: 15px; margin: 0; font-weight: bold;">South China University of Technology</p>
+            <p style="font-size: 13px; margin: 2px 0; color: #555;">B.Eng. in Computer Science, 2016 – 2021</p>
+        </div>
     </div>
 </div>
 
